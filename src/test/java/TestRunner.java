@@ -30,7 +30,7 @@ public class TestRunner extends Setup {
         CalculatorScreen calculatorScreen = new CalculatorScreen(driver);
         String mul = calculatorScreen.doMul();
         System.out.println(mul);
-        ssert.assertEquals(mul, "70");
+        Assert.assertEquals(mul, "70");
 
     }
 
